@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+  background-color: black;
+}
+
+#title{
+  color: white;
+  font-size: large;
+  font-style: italic;
+  background-color: black;
+}
+
+#harry{
+  width: 600px;
+  position: relative;
+  background-color: black;
+}
+
+.post{
+  width: 50%;
+  display: inline-block; 
+  background-color: yellow;
+}
+
+#harry1{
+  position: absolute;
+  left: 50px;
+}
+
+#harry2{
+  position:absolute;
+  right: -10px;
+}
+
+#font1{
+  -webkit-text-stroke:2px white;
+  font-size: 150px;
+  font-weight: bold;
+  position: absolute;
+  background-color: transparent ;
+  top: -45px;  
+}
+
+#font2{
+  -webkit-text-stroke:2px white;
+  font-size: 150px;
+  font-weight: bold;
+  position: absolute;
+  background-color: transparent ;
+  bottom: -300px;
+  left: 260px;
+  margin:0;
+}
+
