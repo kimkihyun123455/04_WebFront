@@ -1,0 +1,315 @@
+.container-1{
+  width: 800px;
+  height: 500px;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header-1, .footer-1{
+  background-color: gray;
+  flex-basis: 20%;
+  border: 1px solid black;
+}
+
+#body-item{
+  border: 1px solid black;;
+}
+
+.body-1{
+  flex-basis: 60%;
+
+  display: flex;
+}
+
+.body-item{
+  border: 1px solid black;
+}
+
+.body-item:first-child{
+  flex-basis: 30%;
+  background-color: skyblue;
+}
+
+.body-item:last-child{
+  flex-basis: 20%;
+  background-color: bisque;
+}
+
+.body-item:nth-child(2){
+  flex-basis: 50%;
+  background-color: red;
+}
+
+
+
+/* ------------------------------------------------------------ */
+
+
+
+
+
+.container-2{
+  width: 800px;
+  height: 500px;
+
+  display: flex;
+  border: 1px solid black;
+
+  flex-direction: column;
+}
+
+.a:first-child{
+  background-color: red;
+  flex-basis: 20%;
+  border: 1px solid black;
+}
+
+.a:last-child{
+  flex-basis: 80%;
+  border: 1px solid black;
+  display: flex;
+}
+
+.b:first-child{
+  border: 1px solid black;
+  background-color: yellow;
+  flex-basis: 30%;
+}
+
+.b:last-child{
+  border: 1px solid black;
+  flex-basis: 70%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.c:first-child{
+  border: 1px solid black;
+  background-color: greenyellow;
+  flex-basis: 80%;
+}
+
+.c:last-child{
+  border: 1px solid black;
+  background-color: blue;
+  flex-basis: 20%;
+}
+
+
+
+/* -------------------------------------------------------- */
+
+
+
+
+.container-3{
+  display: flex;
+
+  width: 800px;
+  height: 500px;
+
+  flex-direction: column;
+}
+
+div{
+  border: 1px solid black;
+}
+
+.d:first-child{
+  background-color: yellow;
+  flex-basis: 33%;
+}
+
+.d:last-child{
+  flex-basis: 67%;
+  
+  display: flex;
+}
+
+.e:first-child{
+  flex-basis: 30%;
+  background-color: skyblue;
+}
+
+.e:last-child{
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.f:last-child{
+  flex-basis: 50%;
+  background-color: hotpink;
+}
+
+.f:first-child{
+  flex-basis: 50%;
+
+  display: flex;
+}
+
+.g:first-child{
+  flex-basis: 80%;
+  background-color: aquamarine;
+}
+
+.g:last-child{
+  flex-basis: 20%;
+  background-color: red;
+}
+
+
+
+/* ------------------------------------------------------ */
+
+
+
+.container-4{
+  width: 800px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.h:first-child, .h:last-child{
+  flex-basis: 20%;
+  background-color: green;
+}
+
+.h:nth-child(2){
+  display: flex;
+
+  flex-basis: 60%;
+}
+
+.i:first-child{
+  background-color: yellow;
+  flex-basis: 30%;
+}
+
+.i:last-child{
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+
+  flex-basis: 70%;
+}
+
+.j{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+
+
+
+/* ---------------------------------------------------------- */
+
+
+
+.container-5{
+  display: flex;
+  flex-direction: column;
+
+  width: 800px;
+  height: 500px;
+}
+
+.k:first-child{
+  background-color: yellow;
+  flex-basis: 30%;
+
+  display: flex;
+}
+
+.l:nth-child(1){
+  flex-basis: 20%;
+}
+.l:nth-child(2){
+  flex-basis: 40%;
+}
+.l:nth-child(3){
+  flex-basis: 40%;
+}
+
+.k:last-child{
+  display: flex;
+
+  flex-basis: 70%;
+}
+
+
+.m:first-child{
+  display: flex;
+  flex-direction: column;
+
+  flex-basis: 30%;
+  background-color: skyblue;
+}
+
+.n{
+  flex-basis: calc(100%/3);
+}
+
+.m:nth-child(2){
+  background-color: pink;
+  flex-basis: 15%;
+}
+
+.m:nth-child(4){
+  background-color: pink;
+  flex-basis: 15%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.q:first-child, .q:last-child{
+  flex-basis: 20%;
+}
+.q:nth-child(2){
+  flex-basis: 60%;
+}
+
+.m:nth-child(3){
+  display: flex;
+  flex-direction: column;
+
+  flex-basis: 40%;
+}
+
+.r:first-child{
+  background-color: orange;
+
+  flex-basis: 50%;
+}
+
+.r:last-child{
+  display: flex;
+
+  flex-basis: 50%;
+}
+
+.o:first-child{
+  display: flex;
+  flex-direction: column;
+
+  flex-basis: 50%;
+  background-color: green;
+
+}
+.p{
+  flex-basis: 50%;
+}
+
+.o:last-child{
+  background-color: red;
+
+  flex-basis: 50%;
+}
