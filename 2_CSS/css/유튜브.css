@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+
+  /* border: 0.5px solid black; */
+}
+
+body{
+  margin: 0;
+}
+
+main{
+  width: 1900px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+header{
+  height: 50px;
+
+  display: flex;
+}
+
+header > section:nth-of-type(1){
+  flex-basis: 5%;
+
+  display: flex;
+  align-items: center;
+}
+
+#bar-field{
+  border: 0;
+  background-color: transparent;
+  cursor:pointer;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+#bar-field > button{
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#bar-field > button:hover{
+  background-color: rgb(228, 222, 222);
+
+  border-radius: 50%;
+}
+
+header > section:nth-of-type(2){
+  flex-basis: 30%;
+
+  display: flex;
+  align-items: center;
+}
+
+#youtube-logo{
+  height: 20px;
+  margin-left: 3px;
+}
+
+header > section:nth-of-type(3){
+  flex-basis: 40%;
+  margin-top: 5px;
+
+  display: flex;
+}
+
+#search-field{
+  width: 630px;
+  height: 35px;
+  border-radius: 16px;
+  border: 0.5px solid gray;
+  display: flex;
+
+  align-items: center;
+}
+
+#query{
+  border: 0;
+  margin-top: 3px;
+  height: 30px;
+}
+
+header > section:nth-of-type(4){
+  flex-basis: 25%;
+}
+header > section:nth-of-type(5){
+  flex-basis: 5%;
+}
+header > section:nth-of-type(6){
+  flex-basis: 2%;
+}
+header > section:nth-of-type(7){
+  flex-basis: 2%;
+}
+
+#profile{
+  width: 30px;
+  height: 30px;
+}
