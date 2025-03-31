@@ -163,7 +163,7 @@ document.querySelector("#user-input")
 .addEventListener("keyup", function(e){
   
   // e : 이벤트 객체 (발생한 이벤트 정보를 담고 있는 객체)
-  if(e.key=="Enter"){
+  if(e.key=="Enter"){ // 엔터가 눌러지고 떼어졌을 때
 
     readValue();
   }
