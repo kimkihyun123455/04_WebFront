@@ -67,7 +67,7 @@ img{
 
   transition-timing-function: ease-out;
   /* ease (기본값) : 처음과 끝이 부드럽게 변화
-  lineaer : 등속
+  linear : 등속
   ease-in : 천천히 시작 -> 빠르게 시작
   ease-out : 빠르게 시작 -> 천천히 끝남
   ease-in-out : 천천히 시작->빠르게 진행->천천히 끝남*/
